@@ -1,0 +1,11 @@
+[package]
+name = "badomen"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+horizon-client = {
+    git = "https://github.com/horizon-rust/horizon",
+    rev = "6475f62f3c834b7489e1816bf47f47ea5eb2b879"
+}
